@@ -1,0 +1,101 @@
+
+html{
+	scroll-behavior: smooth;
+}
+/* ======================================================================================================== */
+.bgimg-1, .bgimg-2, .bgimg-3,.bg-sambung,#quotegame,.bgimg-4{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+.bgimg-1 {
+	background-image: url("../img/bgaset7.1.jpg");
+
+}
+
+.bgimg-2 {
+	background-image: url("../img/bgaset8.5.jpg");
+
+
+}
+.bgimg-3 {
+	background-image: url("../img/bgaset9.6.jpg");
+
+}
+.bgimg-4{
+	background-image: url("../img/code.jpg");
+}
+.bg-sambung{
+	background-image: url('../img/bgsambung.jpg');
+}
+.bg-sambung2{
+	background-image: url('../img/bgsambung.jpg');
+}
+#quotegame{
+	background-image: url('../img/coba.jpg');
+}
+/* ======================================================================================================== */
+/* page home */
+#card1{
+	background-image: url('../img/bgaset4.5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#cardnav{
+	color: #009ffd;
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	border-radius: 13px;
+}
+#home{
+	margin-top: 145px;
+}
+#imgprofile{
+	width: 10rem;
+}
+#text{
+	font-family: sans-serif;
+	color: #2a2a72;
+}
+/* navbar */
+.active{
+	background-color: #09C6F9;
+	border-radius: 13px;
+	color: #f8f9fa;
+}
+.nav-item{
+	margin: 5px;
+}
+
+.nav-item a:hover{
+	background-color: #09C6F9;
+	border-radius: 13px;
+	color: white;
+}
+
+/* dropwown menu */
+.dropdown-menu,#footer{
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.dropdown-menu a:hover{
+	background-color: FFFFFF;
+	color: #181616;
+
+}
+.dropdown-menu a{
+	color: #FCFCFC;
+}
+/* ======================================================================================================== */	
+.card-text,.card-title{
+	color: #343a40;
+}
+/* ======================================================================================================== */
+.logo{
+	margin-left: 40px;
+
+}

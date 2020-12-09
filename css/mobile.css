@@ -1,0 +1,48 @@
+	@media only screen and (max-device-width: 1024px) {
+		#card1{
+			background-image: url('../img/newasset/and-asset1.3.jpg');
+			background-repeat: no-repeat;
+			background-size:cover ;
+		}
+		p{
+			color: #000000;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		#game,#textgame,#quotegame,#footer2{
+			display: none;
+		}
+
+		.bgimg-1{
+			background-image: url('../img/newasset/and-asset2.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: scroll;
+
+		}
+		.bgimg-2{
+			background-image: url('../img/newasset/and-asset3.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: scroll;
+		}
+		.bgimg-3{
+			background-image: url('../img/newasset/and-asset4.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: scroll;
+		}
+		.bgimg-4{
+			background-image: url("../img/code.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: scroll;
+		}
+		.bg-sambung{
+			background-image:none;
+
+		}
+		.logo{
+			width: 130px;
+		}
+	}
