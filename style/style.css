@@ -35,7 +35,7 @@ body{
 	color: white;
 }
 #home .jumbotron{
-	background-image: url('../img/bg.JPG');
+	background-image: url('../img/bg.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
