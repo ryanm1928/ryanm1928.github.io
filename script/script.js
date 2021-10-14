@@ -1,11 +1,11 @@
 
 $(document).ready(function() {
-	$(window).on('load',function(){
-		//ketiaka layar muncul untuk pertama kali ada efek yang di berikan 
-		$('.text-kiri').addClass('text-muncul-kiri');
-		$('.text-kanan').addClass('text-muncul-kanan');
+	// $(window).on('load',function(){
+	// 	//ketiaka layar muncul untuk pertama kali ada efek yang di berikan 
+	// 	$('.text-kiri').addClass('text-muncul-kiri');
+	// 	$('.text-kanan').addClass('text-muncul-kanan');
 
-	})
+	// })
 
 
 
