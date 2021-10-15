@@ -29,7 +29,27 @@ header{
 body{
 	background-color: #333333;
 }
-
+.carousel-item{
+	height: 320px;
+}
+.img-1{
+	background-image: url('../img/sertifikat.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+.img-2{
+	background-image: url('../img/sertifikat2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+.img-3{
+	background-image: url('../img/sertifikat3.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
 #about .container .row .col-sm-5{
 	font-family: 'STIX Two Text', serif;
 	color: white;
@@ -74,147 +94,135 @@ body{
 	color: white;
 	opacity: 0;
 }
-/* .card{
-	
-	transform: translateY(-40px);
-	transition: 1s;
-	} */
-	.card-muncul{
-		opacity: 1;
+.card-muncul{
+	opacity: 1;
 		
-		transition: 0.25s;
-	}
-	.display-none{
-		display: none;
-	}
+	transition: 0.25s;
+}
+.display-none{
+	display: none;
+}
 
-	.garis-bawah{
+.garis-bawah{
 		border-bottom: 2px solid white;
-	}
+}
 
-	body{
-		position: relative;
-	}
-	html{
-		scroll-behavior: smooth;
-	}
-	.active-skill, .list-group-item:hover{
-		background-color: #007bff;
-		color: white;
-	}
-	.active{
-		background-color: #007bff;
+body{
+	position: relative;
+}
+html{
+	scroll-behavior: smooth;
+}
+.active-skill, .list-group-item:hover{
+	background-color: #007bff;
+	color: white;
+}
+.active{
+	background-color: #007bff;
+	-webkit-transform: translate(0px, -5px) scale(1.2);
+	transform: translate(0px, -5px) scale(1.2);
 
-		-webkit-transform: translate(0px, -5px) scale(1.2);
-		transform: translate(0px, -5px) scale(1.2);
+}
+.nav-link:hover{
+	-webkit-transform: translate(0px, -5px) scale(1.2);
+	transform: translate(0px, -5px) scale(1.2);
 
+
+}
+#nav-mobile{
+	display: none;
+}
+.fa{
+	color: white;
+	font-size: 25px;
+}
+
+
+@media (max-width: 1024px) {
+	.carousel-item{
+		height: 530px;
 	}
-	.nav-link:hover{
-		-webkit-transform: translate(0px, -5px) scale(1.2);
-		transform: translate(0px, -5px) scale(1.2);
+	
+}
 
-
+@media (max-width: 992px){
+	#nav{
+		display: none;
 	}
 	#nav-mobile{
+		display: block;
+	}
+	header{
+		margin-top: 0px;
+	}
+	
+}
+
+@media(max-width: 752px){
+	.carousel-item{
+		height: 278px;
+	}
+}
+@media (max-width: 768px)
+{
+	.carousel-item{
+		height: 390px;
+	}
+	#skill-info{
+		box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
+	}
+	#home .jumbotron{
+		background-size: 50rem;
+		height: 400px;
+	}
+	#home .jumbotron img{
+		margin-top: 140px;
+	}
+}
+@media (max-width: 500px) {
+	.carousel-item{
+		height: 270px;
+	}
+	
+}
+@media (max-width: 441px) {
+	.carousel-item{
+		height: 220px;
+	}
+	#home .jumbotron{
+		background-size: 50rem;
+		height: 400px;
+	}
+	#home .jumbotron img{
+		margin-top: 140px;
+	}
+	#comming-soon{
 		display: none;
 	}
-	.fa{
-		color: white;
-		font-size: 25px;
-	}
-
-	footer .col-sm-3{
-		margin-top: 3rem;
-	}
-
-
-
-
-	@media (max-width: 992px){
-		#nav{
-			display: none;
-		}
-		#nav-mobile{
-			display: block;
-		}
-		header{
-			margin-top: 0px;
-		}
-		#project .col-sm-4{
-			margin-left: 40px;
-			margin-right: 40px;
-		}
-
-	}
+	
 	#copyright{
-		font-size: 23px;
+		font-size: 15px;
 	}
-	@media(max-width: 752px){
-		#project .col-sm-4{
-			margin-left: 50px;
-			margin-right: 50px;
-		}
 
-
-
+	.jumbotron{
+		background-color: rgba(0,0,0,0) ;
+		box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
 	}
-	@media (max-width: 768px)
-	{
-		#skill-info{
-			box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
-		}
-		#home .jumbotron{
-			background-size: 50rem;
-			height: 400px;
-		}
-		#home .jumbotron img{
-			margin-top: 140px;
-		}
+
+
+}
+@media (max-width: 375px)
+{
+	.carousel-item{
+		height: 200px;
 	}
-	@media (max-width: 441px) {
-		#home .jumbotron{
-			background-size: 50rem;
-			height: 400px;
-		}
-		#home .jumbotron img{
-			margin-top: 140px;
-		}
-		#comming-soon{
-			display: none;
-		}
-		#project .col-sm-4{
-			margin-left: 40px;
-			margin-right: 10px;
-		}
-		#contact img{
-			margin-left: 2.5rem;
-
-		}
-		footer .col-sm-3{
-			margin-top: 0rem;
-			margin-left: 1.5rem;
-
-		}
-		#copyright{
-			font-size: 15px;
-		}
-
-		.jumbotron{
-			background-color: rgba(0,0,0,0) ;
-			box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
-		}
-
-
+	
+}
+@media (max-width: 320px)
+{
+	.carousel-item{
+		height: 170px;
 	}
-	@media (max-width: 375px)
-	{
-		#project .col-sm-4{
-			margin-left: 20px;
-			margin-right: 10px;
-		}
-		#contact img{
-			margin-left: 1.5rem;
-
-		}
-	}
+	
+}
 
