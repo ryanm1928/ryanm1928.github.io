@@ -30,7 +30,7 @@ body{
 	background-color: #333333;
 }
 .carousel-item{
-	height: 320px;
+	height: 300px;
 }
 .img-1{
 	background-image: url('../img/sertifikat.jpg');
@@ -138,7 +138,7 @@ html{
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1184px) {
 	.carousel-item{
 		height: 530px;
 	}
@@ -146,6 +146,9 @@ html{
 }
 
 @media (max-width: 992px){
+	.carousel-item{
+		height: 390px;
+	}
 	#nav{
 		display: none;
 	}
@@ -158,11 +161,7 @@ html{
 	
 }
 
-@media(max-width: 752px){
-	.carousel-item{
-		height: 278px;
-	}
-}
+
 @media (max-width: 768px)
 {
 	.carousel-item{
@@ -177,6 +176,11 @@ html{
 	}
 	#home .jumbotron img{
 		margin-top: 140px;
+	}
+}
+@media(max-width: 752px){
+	.carousel-item{
+		height: 278px;
 	}
 }
 @media (max-width: 500px) {
@@ -214,12 +218,13 @@ html{
 @media (max-width: 375px)
 {
 	.carousel-item{
-		height: 200px;
+		height: 190px;
 	}
 	
 }
 @media (max-width: 320px)
 {
+	
 	.carousel-item{
 		height: 170px;
 	}
