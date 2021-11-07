@@ -14,7 +14,7 @@
 		<style>
 	</style>
 </head>
-<body data-spy="scroll" data-target=".nav-bar" data-offset="1" >
+<body data-spy="scroll" data-target=".nav-bar" data-offset="1" id="particles-js">
 	<nav class="nav-bar fixed-bottom bg-dark" id="nav-mobile"> 
 		<div class="nav justify-content-center">
 			<a class="nav-link" href="#home">
@@ -352,3 +352,11 @@
 <script src="script/script-skill.js"></script>
 </body>
 <script src="script/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+</script>
