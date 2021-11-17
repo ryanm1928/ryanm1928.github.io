@@ -213,8 +213,8 @@ html {
         height: 278px;
     }
 
-    .text-kanan {
-        text-align: left;
+    .text-kanan,.text-kiri {
+        text-align: center;
     }
 }
 
