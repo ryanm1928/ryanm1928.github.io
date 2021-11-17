@@ -13,6 +13,21 @@ body {
     background-color: #333333;
     font-family: 'Righteous', cursive;
 }
+.btn-contact{
+    height: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.btn-contact li{
+    font-size: 60px;
+}
+.btn-contact:hover{
+    -webkit-transform: translate(0px, -5px) scale(1.1);
+    transform: translate(0px, -5px) scale(1.1);
+    transition: 0;
+    transition: 0.2s;
+}
 
 .carousel-item {
     height: 300px;
@@ -187,6 +202,10 @@ html {
     #home .jumbotron img {
         margin-top: 140px;
     }
+    #copyright{
+        text-align: center;
+    }
+
 }
 
 @media(max-width: 752px) {
