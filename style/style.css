@@ -211,14 +211,14 @@ html {
     }
 
     .btn-contact {
-        height: 50px;
+        height: 60px;
         text-align: center;
         margin-bottom: 20px;
 
     }
 
     .btn-contact li {
-        font-size: 25px;
+        font-size: 27px;
     }
 
 }
