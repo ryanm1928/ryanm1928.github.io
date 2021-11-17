@@ -13,16 +13,19 @@ body {
     background-color: #333333;
     font-family: 'Righteous', cursive;
 }
-.btn-contact{
+
+.btn-contact {
     height: 90px;
     text-align: center;
     margin-bottom: 20px;
 
 }
-.btn-contact li{
+
+.btn-contact li {
     font-size: 60px;
 }
-.btn-contact:hover{
+
+.btn-contact:hover {
     -webkit-transform: translate(0px, -5px) scale(1.1);
     transform: translate(0px, -5px) scale(1.1);
     transition: 0;
@@ -202,8 +205,20 @@ html {
     #home .jumbotron img {
         margin-top: 140px;
     }
-    #copyright{
+
+    #copyright {
         text-align: center;
+    }
+
+    .btn-contact {
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .btn-contact li {
+        font-size: 25px;
     }
 
 }
@@ -213,9 +228,12 @@ html {
         height: 278px;
     }
 
-    .text-kanan,.text-kiri {
+    .text-kanan,
+    .text-kiri {
         text-align: center;
     }
+
+
 }
 
 @media (max-width: 500px) {
