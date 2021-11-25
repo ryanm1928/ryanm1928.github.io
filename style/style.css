@@ -130,7 +130,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+footer{
+    background-color: #343a40;
+}
 .active-skill,
 .list-group-item:hover {
     background-color: #007bff;
@@ -269,6 +271,10 @@ html {
         background-color: rgba(0, 0, 0, 0);
         box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
     }
+    body{
+        background-color: #2E2E2E;
+    }
+    
 
 
 }
