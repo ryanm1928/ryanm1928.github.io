@@ -5,6 +5,7 @@ header {
 
 }
 
+
 .text-kanan {
     text-align: right;
 }
@@ -13,6 +14,7 @@ body {
     background-color: #333333;
     font-family: 'Righteous', cursive;
 }
+
 
 .btn-contact {
     height: 90px;
