@@ -1,10 +1,11 @@
 $(document).ready(function() {
-    // $(window).on('load',function(){
-    // 	//ketiaka layar muncul untuk pertama kali ada efek yang di berikan 
-    // 	$('.text-kiri').addClass('text-muncul-kiri');
-    // 	$('.text-kanan').addClass('text-muncul-kanan');
 
-    // })
+    function showText()
+    {
+    	$('.text-kiri').addClass('text-muncul-kiri');
+    	$('.text-kanan').addClass('text-muncul-kanan');
+
+    }
 
 
 
@@ -21,12 +22,12 @@ $(document).ready(function() {
 
     $(window).scroll(function(event) {
         let roll = $(this).scrollTop();
-        $('#img-header').css({
-            'transform': 'translate(0px,' + roll / 14 + '%)',
-        });
-        $('.text-header').css({
-            'transform': 'translate(0px,' + roll / 4 + '%)'
-        });
+        // $('#img-header').css({
+        //     'transform': 'translate(0px,' + roll / 14 + '%)',
+        // });
+        // $('.text-header').css({
+        //     'transform': 'translate(0px,' + roll / 4 + '%)'
+        // });
         $('.card').each(function(i) {
             if (roll > 1554) {
                 setTimeout(function() {
@@ -39,6 +40,19 @@ $(document).ready(function() {
             } else {
                 $('#nav').css('background-color', '#343a40');
             }
+
+            if(roll >= 370)
+            {
+            	showText();
+            }
+
+            if(roll > 860){
+            	$('.skill-table').addClass('show-skill');
+
+            }
+            console.log(roll);
+
+
         });
 
 
