@@ -91,7 +91,7 @@ body {
 }
 
 #home .jumbotron {
-    /* background-image: url('../img/bg.jpg'); */
+    background-image: url('../img/bg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
