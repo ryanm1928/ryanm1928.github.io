@@ -20,8 +20,7 @@ $(document).ready(function() {
         $('.fa-github').css('color', 'black');
     });
 
-    $(window).scroll(function(event) {
-        let roll = $(this).scrollTop();
+    $(window).scroll(function(event) {        let roll = $(this).scrollTop();
         // $('#img-header').css({
         //     'transform': 'translate(0px,' + roll / 14 + '%)',
         // });
