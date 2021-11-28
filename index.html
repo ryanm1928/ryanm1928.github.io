@@ -200,7 +200,7 @@
                                 <p class="card-text">Aplikasi voting berbasis website yang dilakukan secara online.</p>
                             </div>
                             <div class="card-footer">
-                               <div>Demo tidak tersedia</div>
+                                <div>Demo tidak tersedia</div>
                             </div>
                         </div>
                     </a>
@@ -267,6 +267,49 @@
         <div class="container jumbotron ">
             <center>
                 <div class="h3 text-light mb-5"><span class="garis-bawah">Contact me</span></div>
+            </center>
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="alert alert-success d-none alert-dismissible fade show" role="alert">
+                        <li class="fa fa-check text-success"></li> Pesan mu berhasil di kirim
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="alert alert-danger d-none alert-dismissible fade show" role="alert">
+                        <i class="fa fa-exclamation-circle text-danger" aria-hidden="true"></i> Pesan gagal terkirim
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form name="form-contact" class="mb-4">
+                        <div class="form-group">
+                            <label class="text-light">Nama:</label>
+                            <input type="text" class="form-control" name="nama" placeholder="Masukan nama.." required >
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1 " class="text-light">Email:</label>
+                            <input type="email" class="form-control" name="email" placeholder="Masukan email.." required>
+                            <small class="form-text text-light">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-light">Pesan:</label>
+                            <textarea required name="pesan" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Masukan pesan.."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 btn-send">
+                            <li style="font-size: 18px" class="fa fa-send"></li> Kirim
+                        </button>
+                        <button class="btn btn-primary w-100 d-none btn-loading" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Mengirim...
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container jumbotron">
+            <center>
+                <div class="h3 text-light mb-5"><span class="garis-bawah">More Info</span></div>
             </center>
             <div class="row">
                 <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-5 h-100">
