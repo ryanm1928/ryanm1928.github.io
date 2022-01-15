@@ -6,11 +6,12 @@ header {
 }
 
 .skill-table{
-    transform: scale(0);
+    opacity: 0;
     transition: 1s;
 }
 .show-skill{
-   transform: scale(1);
+    opacity: 1;
+
 }
 
 .text-kiri
