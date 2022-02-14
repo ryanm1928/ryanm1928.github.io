@@ -130,3 +130,19 @@ form.addEventListener('submit', e => {
             btnSend.classList.toggle('d-none');
         })
 })
+
+var skills = $('.skill');
+
+function clear()
+{
+    $('.skill').each(function(index, el) {
+        $(el).addClass('display-none'); 
+    });
+}
+
+function show(el)
+{
+    clear();
+    skills[el].classList.remove('display-none');
+
+}

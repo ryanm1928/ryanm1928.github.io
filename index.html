@@ -59,7 +59,7 @@
             </ul>
         </div>
     </nav>
-    <header id="home" style="margin-bottom:120px" >
+    <header id="home" style="margin-bottom:120px">
         <div>
             <div class="jumbotron p-5">
                 <center>
@@ -95,19 +95,19 @@
             <div class="row skill-table">
                 <div class="col-lg-3 mb-4">
                     <div id="scroll-ku" class="list-group">
-                        <div id="skill1" class="list-group-item list-group-item-action active-skill">HTML CSS3 & Javascript</div>
-                        <div id="skill2" class="list-group-item">Jquery</div>
-                        <div id="skill3" class="list-group-item">PHP</div>
-                        <div id="skill4" class="list-group-item">Laravel</div>
-                        <div id="skill5" class="list-group-item">Bootstrap</div>
-                        <div id="skill6" class="list-group-item">Mysql</div>
-                        <div id="skill7" class="list-group-item">Git & Github</div>
+                        <div onclick="show(0)" id="skill1" class="list-group-item list-group-item-action active-skill">HTML CSS3 & Javascript</div>
+                        <div class="list-group-item skill-item-table" onclick="show(1)">Jquery</div>
+                        <div class="list-group-item skill-item-table" onclick="show(2)">PHP</div>
+                        <div class="list-group-item skill-item-table" onclick="show(3)">Laravel</div>
+                        <div class="list-group-item skill-item-table" onclick="show(4)">Bootstrap</div>
+                        <div class="list-group-item skill-item-table" onclick="show(5)">Mysql</div>
+                        <div class="list-group-item skill-item-table" onclick="show(6)">Git & Github</div>
                     </div>
                 </div>
                 <div class="col-lg-9 " id="skill-content">
                     <div style="height: 340px;overflow-y: scroll;" class="p-3" id="skill-info">
                         <p>Saya bisa menggunakan:</p>
-                        <div class="skill1">
+                        <div class="skill">
                             <center class="mb-2">
                                 <img src="img/html_logo.png" alt="" class="">
                                 <img src="img/css_logo.png" alt="" class="">
@@ -125,7 +125,7 @@
                                 <b>JavaScript</b> adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif.
                             </p>
                         </div>
-                        <div class="skill2 display-none">
+                        <div class="skill display-none">
                             <center class="mb-2">
                                 <img src="img/jquery.png" alt="">
                             </center>
@@ -133,7 +133,7 @@
                                 <b> jQuery </b> adalah library JavaScript yang berguna untuk mempercepat dalam proses pembuatan website.
                             </p>
                         </div>
-                        <div class="skill3 display-none">
+                        <div class="skill display-none">
                             <center class="mb-2">
                                 <img src="img/php_logo.png" alt="">
                             </center>
@@ -141,7 +141,7 @@
                                 <b>PHP</b>: atau Hypertext Preprocessor adalah salah satu bahasa pemrograman yang menangani serverside dalam website. Karena, PHP adalah bagian yang dapat membuat website menjadi lebih dinamis.PHP merupakan salah satu bahasa pemrograman yang dapat berinteraksi langsung dengan database.
                             </p>
                         </div>
-                        <div class="skill4 display-none">
+                        <div class="skill display-none">
                             <center class="mb-2">
                                 <img src="img/laravel_logo.png" alt="">
                             </center>
@@ -150,7 +150,7 @@
                                 mempercepat dan mempermudah dalam pengembangan website.
                             </p>
                         </div>
-                        <div class="skill5 display-none">
+                        <div class="skill display-none">
                             <center class="mb-2">
                                 <img src="img/b_logo.png" alt="">
                             </center>
@@ -158,7 +158,7 @@
                                 <b>Bootstrap</b> adalah kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi web. Kerangka kerja ini berisi templat desain berbasis HTML dan CSS untuk tipografi, formulir, tombol, navigasi, dan komponen antarmuka lainnya, Bootstrap mempercepat dalam merancang desain dalam pengembangan website
                             </p>
                         </div>
-                        <div class="skill6 display-none">
+                        <div class="skill display-none">
                             <center class="mb-2">
                                 <img src="img/mysql_logo.png" alt="">
                             </center>
@@ -166,7 +166,7 @@
                                 <b>MySQL</b> adalah sistem manajemen basis data (database management) dengan menggunakan perintah-perintah dasar SQL (Structured Query Language) yang cukup terkenal.
                             </p>
                         </div>
-                        <div class="skill7 display-none">
+                        <div class="skill display-none">
                             <center class="mb-2">
                                 <img src="img/git_logo.png" alt="">
                                 <img src="img/github_logo.png" alt="">
@@ -191,7 +191,7 @@
             </center>
             <div class="row justify-content-center">
                 <!-- <div class="col-sm-12 btn btn-dark mb-3">Project</div> -->
-                <div class=" card-project col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class=" card-project col-12 col-sm-12 col-md-6 col-lg-4">
                     <a href="https://github.com/ryanm1928/Laravel-Evoting-Pemilihan-Ketua-osis" target="_blank" style="text-decoration: none;">
                         <div class="card mb-3 mt-2  shadow w-100">
                             <img src="img/final1.png" class="card-img-top" alt="...">
@@ -202,7 +202,7 @@
                         </div>
                     </a>
                 </div>
-                <div class=" card-project col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class=" card-project col-12 col-sm-12 col-md-6 col-lg-4">
                     <a href="https://github.com/ryanm1928/Landing-page" target="_blank" style="text-decoration: none;">
                         <div class="card mb-3 mt-2  shadow w-100">
                             <img src="img/post.JPG" class="card-img-top" alt="...">
@@ -213,7 +213,7 @@
                         </div>
                     </a>
                 </div>
-                <div class=" card-project col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class=" card-project col-12 col-sm-12 col-md-6 col-lg-4">
                     <a href="https://github.com/ryanm1928/ProjectRemakeFrontendPlayday.id" target="_blank" style="text-decoration: none;">
                         <div class="card mb-3 mt-2  shadow w-100">
                             <img src="img/project-3.JPG" class="card-img-top" alt="...">
@@ -224,32 +224,61 @@
                         </div>
                     </a>
                 </div>
-                <div class=" card-project col-12 col-sm-8 col-md-6 col-lg-4" id="comming-soon">
-                    <div class="card mb-3 mt-2  shadow w-100">
-                        <img src="img/no.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Comming soon</h5>
-                            <p class="card-text">Project is comming soon</p>
+                <div class=" card-project col-6 col-sm-6 col-md-6 col-lg-3" id="comming-soon">
+                    <a href="https://github.com/ryanm1928/Mini_Project_JavaScript/tree/master/TodoListApp">
+                        <div class="card mb-3 mt-2  shadow w-100">
+                            <img src="img/Project4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Todo List App</h5>
+                                <!-- <p class="card-text">Project is comming soon</p> -->
+                            </div>
+                            <div class="card-footer">
+                                Mini Project JavaScript
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class=" card-project col-12 col-sm-8 col-md-6 col-lg-4" id="comming-soon">
-                    <div class="card mb-3 mt-2  shadow w-100">
-                        <img src="img/no.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Comming soon</h5>
-                            <p class="card-text">Project is comming soon</p>
+                <div class=" card-project col-6 col-sm-6 col-md-6 col-lg-3" id="comming-soon">
+                    <a href="https://github.com/ryanm1928/Mini_Project_JavaScript/tree/master/Stopwatch">
+                        <div class="card mb-3 mt-2  shadow w-100">
+                            <img src="img/stopwatch.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Stopwatch Timer</h5>
+                                <!-- <p class="card-text">Project is comming soon</p> -->
+                            </div>
+                            <div class="card-footer">
+                                Mini Project JavaScript
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class=" card-project col-12 col-sm-8 col-md-6 col-lg-4" id="comming-soon">
-                    <div class="card mb-3 mt-2  shadow w-100">
-                        <img src="img/no.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Comming soon</h5>
-                            <p class="card-text">Project is comming soon</p>
+                <div class=" card-project col-6 col-sm-6 col-md-6 col-lg-3" id="comming-soon">
+                    <a href="https://github.com/ryanm1928/Mini_Project_JavaScript/tree/master/CountDown">
+                        <div class="card mb-3 mt-2  shadow w-100">
+                            <img src="img/countdown.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Countdown Timer</h5>
+                                <!-- <p class="card-text">Project is comming soon</p> -->
+                            </div>
+                            <div class="card-footer">
+                                Mini Project JavaScript
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class=" card-project col-6 col-sm-6 col-md-6 col-lg-3" id="comming-soon">
+                    <a href="https://github.com/ryanm1928/Mini_Project_JavaScript/tree/master/Kalkulator">
+                        <div class="card mb-3 mt-2  shadow w-100">
+                            <img src="img/kalkulator.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kalkulator</h5>
+                                <!-- <p class="card-text">Project is comming soon</p> -->
+                            </div>
+                            <div class="card-footer">
+                                Mini Project JavaScript
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -276,7 +305,7 @@
                     <form name="form-contact" class="mb-4">
                         <div class="form-group">
                             <label class="text-light">Nama:</label>
-                            <input autocomplete="off" type="text" class="form-control" name="nama" placeholder="Masukan nama.." required >
+                            <input autocomplete="off" type="text" class="form-control" name="nama" placeholder="Masukan nama.." required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1 " class="text-light">Email:</label>

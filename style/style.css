@@ -1,326 +1,293 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 header {
-    margin-top: 0px;
-
+  margin-top: 0px;
 }
 
-.skill-table{
-    opacity: 0;
-    transition: 1s;
+.skill-table {
+  opacity: 0;
+  transition: 1s;
 }
-.show-skill{
-    opacity: 1;
+.show-skill {
+  opacity: 1;
+}
 
+.text-kiri {
+  opacity: 0;
+  transition: 1.5s;
 }
-
-.text-kiri
-{
-    opacity: 0;
-    transition: 1.5s;
-    
+.text-kanan {
+  opacity: 0;
+  transition: 1.5s;
 }
-.text-kanan
-{
-    opacity: 0;
-    transition: 1.5s;
-
+.text-muncul-kiri {
+  opacity: 1;
 }
-.text-muncul-kiri{
-    opacity: 1;
-}
-.text-muncul-kanan{
-    opacity: 1;
+.text-muncul-kanan {
+  opacity: 1;
 }
 
 .text-kanan {
-    text-align: right;
+  text-align: right;
 }
-
+.card-footer {
+  font-size: 13px;
+}
 body {
-    background-color: #333333;
-    font-family: 'Righteous', cursive;
+  background-color: #333333;
+  font-family: "Righteous", cursive;
 }
-
 
 .btn-contact {
-    height: 90px;
-    text-align: center;
-    margin-bottom: 20px;
-
+  height: 90px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .btn-contact li {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .btn-contact:hover {
-    -webkit-transform: translate(0px, -5px) scale(1.1);
-    transform: translate(0px, -5px) scale(1.1);
-    transition: 0;
-    transition: 0.2s;
+  -webkit-transform: translate(0px, -5px) scale(1.1);
+  transform: translate(0px, -5px) scale(1.1);
+  transition: 0;
+  transition: 0.2s;
 }
 
 .carousel-item {
-    height: 300px;
+  height: 300px;
 }
 
 .img-1 {
-    background-image: url('../img/sertifikat.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-
+  background-image: url("../img/sertifikat.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img-2 {
-    background-image: url('../img/sertifikat2.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-
+  background-image: url("../img/sertifikat2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img-3 {
-    background-image: url('../img/sertifikat3.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-
+  background-image: url("../img/sertifikat3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #about .container .row .col-md-5 {
-    color: white;
-
+  color: white;
 }
 
 #home .jumbotron {
-    background-image: url('../img/bg.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 450px;
-    box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
-
+  background-image: url("../img/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 450px;
+  box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
 }
 
 #home .jumbotron img {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 #home .jumbotron .h1 {
-    font-family: 'Righteous', cursive;
-    color: white;
-
+  font-family: "Righteous", cursive;
+  color: white;
 }
 
 #home .jumbotron .h5 {
-    font-family: 'Righteous', cursive;
-    color: white;
-
+  font-family: "Righteous", cursive;
+  color: white;
 }
 
 .jumbotron {
-    background-color: #343a40;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-
+  background-color: #343a40;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 }
 
 .col-lg-9 p {
-    color: white;
-
+  color: white;
 }
 
 .card:hover {
-    -webkit-transform: translate(0px, -5px) scale(1.1);
-    transform: translate(0px, -5px) scale(1.1);
-    transition: 0;
+  -webkit-transform: translate(0px, -5px) scale(1.1);
+  transform: translate(0px, -5px) scale(1.1);
+  transition: 0;
 }
 
 .card {
-    background-color: #343a40;
-    color: white;
-    transform: scale(0);
+  background-color: #343a40;
+  color: white;
+  transform: scale(0);
 }
 
 .card-muncul {
-    transform: scale(1);
+  transform: scale(1);
 
-    transition: 0.25s;
+  transition: 0.25s;
 }
 
 .display-none {
-    display: none;
+  display: none;
 }
 
 .garis-bawah {
-    border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 body {
-    position: relative;
+  position: relative;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-footer{
-    background-color: #343a40;
+footer {
+  background-color: #343a40;
 }
 .active-skill,
 .list-group-item:hover {
-    background-color: #007bff;
-    color: white;
+  background-color: #007bff;
+  color: white;
 }
 
 .active {
-    background-color: #007bff;
-    -webkit-transform: translate(0px, -5px) scale(1.2);
-    transform: translate(0px, -5px) scale(1.2);
-
+  background-color: #007bff;
+  -webkit-transform: translate(0px, -5px) scale(1.2);
+  transform: translate(0px, -5px) scale(1.2);
 }
 
 .nav-link:hover {
-    -webkit-transform: translate(0px, -5px) scale(1.2);
-    transform: translate(0px, -5px) scale(1.2);
-
-
+  -webkit-transform: translate(0px, -5px) scale(1.2);
+  transform: translate(0px, -5px) scale(1.2);
 }
 
 #nav-mobile {
-    display: none;
+  display: none;
 }
 
 .fa {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
 
-
 @media (max-width: 1184px) {
-    .carousel-item {
-        height: 530px;
-    }
-
+  .carousel-item {
+    height: 530px;
+  }
 }
 
 @media (max-width: 992px) {
-    .carousel-item {
-        height: 390px;
-    }
+  .carousel-item {
+    height: 390px;
+  }
 
-    #nav {
-        display: none;
-    }
+  #nav {
+    display: none;
+  }
 
-    #nav-mobile {
-        display: block;
-    }
+  #nav-mobile {
+    display: block;
+  }
 
-    header {
-        margin-top: 0px;
-    }
-
+  header {
+    margin-top: 0px;
+  }
 }
-
 
 @media (max-width: 768px) {
-    .carousel-item {
-        height: 390px;
-    }
+  .carousel-item {
+    height: 390px;
+  }
 
-    #skill-info {
-        box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
-    }
+  #skill-info {
+    box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
+  }
 
-    #home .jumbotron {
-        background-size: 60rem;
-        height: 400px;
-    }
+  #home .jumbotron {
+    background-size: 60rem;
+    height: 400px;
+  }
 
-    #home .jumbotron img {
-        margin-top: 140px;
-    }
+  #home .jumbotron img {
+    margin-top: 140px;
+  }
 
-    #copyright {
-        text-align: center;
-    }
+  #copyright {
+    text-align: center;
+  }
 
-    .btn-contact {
-        height: 60px;
-        text-align: center;
-        margin-bottom: 20px;
+  .btn-contact {
+    height: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    }
-
-    .btn-contact li {
-        font-size: 27px;
-    }
-
+  .btn-contact li {
+    font-size: 27px;
+  }
 }
 
-@media(max-width: 752px) {
-    .carousel-item {
-        height: 278px;
-    }
+@media (max-width: 752px) {
+  .carousel-item {
+    height: 278px;
+  }
 
-    .text-kanan,
-    .text-kiri {
-        text-align: center;
-    }
-
-
+  .text-kanan,
+  .text-kiri {
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
-    .carousel-item {
-        height: 270px;
-    }
-
+  .carousel-item {
+    height: 270px;
+  }
 }
 
 @media (max-width: 441px) {
-    .carousel-item {
-        height: 220px;
-    }
+  .carousel-item {
+    height: 220px;
+  }
 
-    #home .jumbotron {
-        background-size: 50rem;
-        height: 400px;
-    }
+  #home .jumbotron {
+    background-size: 50rem;
+    height: 400px;
+  }
 
-    #home .jumbotron img {
-        margin-top: 140px;
-    }
+  #home .jumbotron img {
+    margin-top: 140px;
+  }
 
-    #comming-soon {
-        display: none;
-    }
+  #comming-soon {
+    display: none;
+  }
 
-    #copyright {
-        font-size: 15px;
-    }
+  #copyright {
+    font-size: 15px;
+  }
 
-    .jumbotron {
-        background-color: rgba(0, 0, 0, 0);
-        box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
-    }
-    body{
-        background-color: #2E2E2E;
-    }
-    
-
-
+  .jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0rem 0rem rgb(0 0 0 / 0%) !important;
+  }
+  body {
+    background-color: #2e2e2e;
+  }
 }
 
 @media (max-width: 375px) {
-    .carousel-item {
-        height: 190px;
-    }
-
+  .carousel-item {
+    height: 190px;
+  }
 }
 
 @media (max-width: 320px) {
-
-    .carousel-item {
-        height: 170px;
-    }
-
+  .carousel-item {
+    height: 170px;
+  }
 }
