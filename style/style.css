@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-
 header {
   margin-top: 0px;
 }
-
+.card-project a{
+  text-decoration: none;
+}
 .skill-table {
   opacity: 0;
   transition: 1s;
